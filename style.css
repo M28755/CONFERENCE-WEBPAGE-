@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee+Spice&family=Gravitas+One&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADING SECTION*/
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(38, 0, 255, 0.63);
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+h2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Bungee Spice", sans-serif;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*NAVIGATION SECTION*/
+.navigation-section {
+    background-color: rgba(0, 0, 255, 0.658);
+    width: 700px;
+    margin: 0 auto;
+    /*  border-top: 30px solid;
+    border-image: linear-gradient(to top, rgba(0, 0, 255, 0.555), rgba(128, 0, 128, 0.562))1;
+ */
+    border: 5px solid transparent;
+    background: linear-gradient(to right, red, blue);
+    background-clip: border-box;
+    list-style: none;
+}
+
+.navigation-section ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+
+}
+
+.navigation-section a {
+    border: 5px solid transparent;
+    background: linear-gradient(to right, rgba(115, 255, 0, 0.781), rgba(2, 252, 156, 0.541)) border-box;
+    color: #000DB2;
+
+}
+
+.navigation-section li:hover {
+    transform: scale(1.2)
+}
+
+.navigation-section a:active {
+    color: #F22FFF;
+}
+
+/*Event section*/
+#about {
+    border: 2px;
+    border-style: groove;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.content {
+    background-color: #000cb23f;
+
+}
+
+h3 {
+    border: 5px solid transparent;
+    background: linear-gradient(to left, rgba(115, 255, 0, 0.781), rgba(2, 252, 156, 0.541)) border-box;
+
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-display: block;
+    color: indigo;
+}
+
+/*Event section*/
+#schedule {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-style {
+    border: 2px solid;
+    width: 600px;
+    height: 300px;
+}
+
+.table-style th {
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+
+}
+
+.table-style td {
+    padding-left: 10px;
+
+
+}
+
+.table-style td:nth-child(2) {
+    color: #000DB2;
+}
+
+#speakers {
+    padding-top: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(101, 185, 185, 0.342);
+
+}
+
+#speakers p {
+    line-height: 3;
+}
+
+#contact {
+    background-color: #000cb22f;
+
+}
+
+.user-info {
+    display: grid;
+    row-gap: 13px;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-info input {
+    width: 250px;
+    height: 25px;
+}
+
+#contact .message {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact .buttonSubmit {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+
+}
