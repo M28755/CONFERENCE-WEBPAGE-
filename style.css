@@ -165,3 +165,81 @@ p {
     justify-self: center;
 
 }
+#contact .buttonSubmit:hover{
+    background-color: #000DB2;
+}
+@media screen and (max-width: 900px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 510px;
+
+    }
+    body{
+        padding: 0;
+        width: 510px;
+        overflow: hidden;
+        row-gap: 20px;
+
+    }
+    head{
+        display: block;
+        margin: 0 auto;
+    }
+    .heading {
+        width: 510px;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    h2{
+        padding-left: 5rem;
+    }
+    .heading span{
+        padding-left: 0.1rem;
+        
+    }
+    .navigation-section {
+        width: 510px;
+
+    }
+    .table-style {
+        width: 510px;
+        flex-direction: column;
+      
+    }
+    #schedule{
+        width: 510px;
+        padding-left: 1px;
+    }
+    .about{
+        width: 100%;
+    }
+    .content{
+        width: 510px;
+
+    }
+    #about{
+        border: none;
+    }
+    #speakers{
+        width: 510px;
+    }
+    #contact{
+        width: 510px;
+    }
+    footer{
+        width: 510px;
+    }
+    #contact .buttonSubmit {
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        width: 120px;
+        padding-bottom: 21px;
+    
+    }
+}
